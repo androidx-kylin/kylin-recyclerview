@@ -1,0 +1,16 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "kylin-recyclerview",
+  "main": "index.js",
+  "repository": "https://github.com/androidx-kylin/kylin-recyclerview",
+  "author": "rae",
+  "license": "apache license 2.0",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "vuepress": "^1.9.10"
+  }
+}

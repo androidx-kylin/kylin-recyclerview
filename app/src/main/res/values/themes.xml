@@ -1,0 +1,13 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Recyclerview" parent="Theme.Material3.Dark">
+        <item name="android:statusBarColor">@color/black</item>
+    </style>
+
+    <style name="Theme.Recyclerview" parent="Base.Theme.Recyclerview" />
+
+    <style name="DemoButton" parent="Widget.Material3.Button">
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="cornerRadius">6dp</item>
+    </style>
+</resources>
